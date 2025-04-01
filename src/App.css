@@ -1,0 +1,198 @@
+* {
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.app-container{
+  display: flex;
+  align-items: center;
+}
+
+/*Navbar css*/
+.header-container {
+  background-color: hsl(240, 21%, 12%);
+}
+
+.navbar-container .navbar-mainbtn {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+  margin-left: 0px;
+  color: hsl(266, 100%, 67%);
+  transition: 0.2s;
+}
+
+.navbar-container .navbar-mainbtn:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+
+.navbar-container .header-icon {
+  font-size: 40px;
+  transition: 0.5s;
+}
+
+
+.navbar-container .header-title {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 700;
+  transition: 0.5s;
+}
+
+.navbar-container .navbar-auxbtn {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  margin-left: auto;
+}
+
+.navbar-container .navbar-auxbtn .btn {
+  font-family: 'Poppins';
+  color: hsl(214, 21%, 90%);
+  font-size: 17px;
+  transition: 0.2s;
+}
+
+.navbar-container .navbar-auxbtn .btn:hover {
+  color: hsl(266, 100%, 67%);
+  transform: scale(1.02);
+}
+
+/**/
+
+.body {
+  width: 100%;
+}
+
+.banner-container {
+  height: auto;
+  width: 100%;
+  background-color: hsl(240, 21%, 12%);
+  margin-top: 56px;
+  display: flex;
+  flex-direction: row;
+}
+
+.banner-container .banner-text .banner-title{
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 60px;
+  color: hsl(266, 100%, 67%);
+}
+
+.banner-container .banner-text .banner-desc{
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: hsl(214, 21%, 90%);
+  text-align: justify;
+  width: 700px;
+}
+
+.banner-container .banner-img {
+  width: 300px;
+  border-radius: 2000px;
+}
+
+.experience-section {
+  align-items: center;
+  margin-top: 80px;
+}
+
+.experience-section .section-title {
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 60px;
+  color: hsl(266, 100%, 67%);
+  text-shadow: 10px 10px 10px hsla(240, 21%, 12%, 0.849);
+}
+
+.body .experience-container {
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.body .experience-container .experience-box {
+  background-color: hsl(265, 51%, 23%);
+  width: 380px;
+  height: 230px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px 5px hsla(240, 21%, 12%, 0.849);
+  color: hsl(214, 21%, 90%);
+  transition: 0.5s;
+  gap: 10px;
+}
+
+.body .experience-container .experience-box:hover {
+  transform: scale(1.05);
+  transform: rotate(2deg);
+  box-shadow: 10px 10px 10px 10px hsla(240, 21%, 12%, 0.849);
+}
+
+.body .experience-container .experience-box .experience-title {
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.body .experience-container .experience-box .experience-desc {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  width: 360px;
+}
+
+.projects-section {
+  align-items: center;
+  margin-top: 80px;
+}
+
+.projects-section .section-title {
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 60px;
+  color: hsl(266, 100%, 67%);
+  text-shadow: 10px 10px 10px hsla(240, 21%, 12%, 0.849);
+}
+
+.projects-section .projects-container {
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 50px;
+  height: auto;
+}
+
+.projects-section .projects-container{
+  display: flex;
+  flex-direction: row;
+  background-color: hsl(240, 21%, 12%);
+  width: 100%;
+}
+
+
+.projects-section .projects-container .projects-desc{
+  background-color: hsl(240, 22%, 15%);
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.projects-section .projects-container .projects-title{
+  font-weight: 700;
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
