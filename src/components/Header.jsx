@@ -4,7 +4,7 @@ import CodeIcon from '@mui/icons-material/Code';
 
 
 
-function Header() {
+function Header({ scrollToSection, projectsRef, experiencesRef, contactRef }) {
 
   return (
     <Box>
@@ -22,6 +22,12 @@ function Header() {
                     </Typography>
                 </Stack>
 
+                <Stack className='navbar-subbtn'>
+                    <Button className='header-btn' onClick={() => scrollToSection(experiencesRef)}>Experiences</Button>
+                    <Button className='header-btn' onClick={() => scrollToSection(projectsRef)}>Projects</Button>
+                    <Button className='header-btn' onClick={() => scrollToSection(contactRef)}>Contact</Button>
+                    
+                </Stack>                          
             </Toolbar>
         </AppBar>
     </Box>
