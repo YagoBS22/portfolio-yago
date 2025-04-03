@@ -7,6 +7,10 @@ import { faPython } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import YBimg from '../assets/Img_banner.png'
+import ACimg from '../assets/AgeCalculator.png'
+import TCimg from '../assets/ConfTicket.png'
+import DBimg from '../assets/Perpetual.png'
 function Body({ projectsRef, experiencesRef, contactRef }) {
 
   return (
@@ -27,7 +31,7 @@ function Body({ projectsRef, experiencesRef, contactRef }) {
             </Stack>
 
             <Box>
-                <img src='./src/assets/Img_banner.png' className='banner-img'/>
+                <img src={YBimg} className='banner-img'/>
             </Box>
 
         </Stack>
@@ -72,7 +76,7 @@ function Body({ projectsRef, experiencesRef, contactRef }) {
             <Stack className='projects-container'>
 
                 <Card className='projects-card' sx={{ width: 345, height: 365, maxWidth: 345}}>
-                    <CardMedia className='card-img' sx={{ height: 200 }} image='./src/assets/AgeCalculator.png'></CardMedia>
+                    <CardMedia className='card-img' sx={{ height: 200 }} image={ACimg}></CardMedia>
                     <CardContent className='card-desc'>
                         <Typography className='desc-title'>Age Calculator</Typography>
                         <Typography className='desc-text'>A project that calculates your age based on your birth date</Typography>
@@ -84,7 +88,7 @@ function Body({ projectsRef, experiencesRef, contactRef }) {
                 </Card>
 
                 <Card className='projects-card' sx={{ width: 345, height: 365, maxWidth: 345}}>
-                    <CardMedia className='card-img' sx={{ height: 200 }} image='./src/assets/ConfTicket.png'></CardMedia>
+                    <CardMedia className='card-img' sx={{ height: 200 }} image={TCimg}></CardMedia>
                     <CardContent className='card-desc'>
                         <Typography className='desc-title'>Conference Ticket Generator</Typography>
                         <Typography className='desc-text'>A project that a randomly generates a conference ticket</Typography>
@@ -96,7 +100,7 @@ function Body({ projectsRef, experiencesRef, contactRef }) {
                 </Card>
 
                 <Card className='projects-card' sx={{ width: 345, height: 365, maxWidth: 345}}>
-                    <CardMedia className='card-img' sx={{ height: 200 }} image='./src/assets/Perpetual.png'></CardMedia>
+                    <CardMedia className='card-img' sx={{ height: 200 }} image={DBimg}></CardMedia>
                     <CardContent className='card-desc'>
                         <Typography className='desc-title'>Movie Database</Typography>
                         <Typography className='desc-text'>A site that provides information about movies</Typography>
